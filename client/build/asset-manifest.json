@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.9ae5af18.css",
+    "main.js": "/static/js/main.0e95a7b6.js",
+    "static/media/su-logo-small.png": "/static/media/su-logo-small.4e038d89dda20d978437.png",
+    "static/media/person.jpeg": "/static/media/person.4627474901762bd9fc89.jpeg",
+    "static/media/list.png": "/static/media/list.4f7cc6703d7907899e19.png",
+    "static/media/student-syllabus3.png": "/static/media/student-syllabus3.912144bf7dab0e25c3d1.png",
+    "static/media/schedule2.png": "/static/media/schedule2.a66611117d796a651748.png",
+    "static/media/transcript.png": "/static/media/transcript.00f2e24571e5c892c48d.png",
+    "static/media/attest.png": "/static/media/attest.d1ff88b3ea5c1d6be6ba.png",
+    "static/media/advisor.png": "/static/media/advisor.b102c6ed894ac74856d2.png",
+    "static/media/exam.png": "/static/media/exam.81a4b46e2e230e4fac1b.png",
+    "static/media/shedule.png": "/static/media/shedule.9bda2225357df7195b74.png",
+    "static/media/money.png": "/static/media/money.213813a27bcee60e6bd2.png",
+    "static/media/home.svg": "/static/media/home.080eca90abcfef0b6526907a85ebde40.svg",
+    "index.html": "/index.html",
+    "static/media/exit.svg": "/static/media/exit.48e1f49f39fec9aee7e3717af9ddab77.svg",
+    "main.9ae5af18.css.map": "/static/css/main.9ae5af18.css.map",
+    "main.0e95a7b6.js.map": "/static/js/main.0e95a7b6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9ae5af18.css",
+    "static/js/main.0e95a7b6.js"
+  ]
+}
