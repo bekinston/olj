@@ -1,0 +1,5 @@
+{
+  "port" : 8080,
+  "jwtSecret": "olj_main",
+  "mongoUri":"mongodb+srv://oljas:Mydick99@satbayevapp.n2srh.mongodb.net/satbayevapp?retryWrites=true&w=majority"
+}
