@@ -52,7 +52,7 @@ export const Admin = () => {
     <div class="row">
         <div className="col l4 m6 s12">
 
-          <div class="card white">
+          <div className="card white">
             <h5>Добавить предмет</h5>
             <input placeholder="name" name="name" onChange={subjectchangeHandler}/>
             <input placeholder="mark" name="mark" onChange={subjectchangeHandler}/>

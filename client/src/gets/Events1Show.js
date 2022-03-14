@@ -3,9 +3,8 @@ import {Events1List} from './Events1List'
 import axios from 'axios'
 import {useHttp} from '../hooks/http.hook'
 
-
 export const Events1Show = () => {
-  const [event1, setEvent1] = useState([])
+  const [events1, setEvent1] = useState([])
   const {loading, request} = useHttp()
 
   const fetchEvent1 = useCallback(async () => {
@@ -17,14 +16,15 @@ export const Events1Show = () => {
   } catch (e) {}
 }, [request])
 
-useEffect(() => {
-  fetchEvent1()
-}, [fetchEvent1])
+
+  useEffect(() => {
+    fetchEvent1()
+  }, [fetchEvent1])
 
 
   return (
     <>
-      {<Events1List event1={event1} />}
+      {<Events1List events1={events1} />}
     </>
   )
 }

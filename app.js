@@ -21,8 +21,6 @@ if (process.env.NODE_ENV === 'production') {
 app.use('/api/text', require('./routes/text.routes'))
 
 
-
-
 async function start() {
   try {
     await mongoose.connect(config.get('mongoUri'),{

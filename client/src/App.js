@@ -3,6 +3,7 @@ import {useRoutes} from './routes'
 import {useAuth} from './hooks/auth.hook'
 import {BrowserRouter as Router} from 'react-router-dom'
 import {Navbar} from './components/Navbar'
+import 'materialize-css'
 
 
 function App() {

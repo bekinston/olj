@@ -5,7 +5,7 @@ import {SubjectsShow} from '../gets/SubjectsShow'
 import {Subject0Show} from '../gets/Subject0Show'
 
 
-class Bot extends React.Component {
+export class Bot extends React.Component {
           constructor(props) {
             super(props)
             this.state = {
@@ -210,5 +210,3 @@ class Bot extends React.Component {
 
         }
     }
-
-export default Bot

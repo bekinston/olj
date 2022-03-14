@@ -12,6 +12,7 @@ export const useRoutes = isAuthenticated => {
       <Routes>
         <Route path="/menu" element ={<Menu/>}/>
         <Route path="*" element={<Navigate to="/menu"/>}/>
+        <Route path = "/admin" element={<Admin/>}/>
       </Routes>
     )
   }

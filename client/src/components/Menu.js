@@ -20,7 +20,8 @@ import sprav from '../images/sprav.png'
 import diploma from '../images/diploma.png'
 import library from '../images/library.png'
 import bd from '../images/bd.png'
-import Bot from './Bot'
+import {Bot} from './Bot'
+import {Events1Show} from '../gets/Events1Show'
 
 
 
