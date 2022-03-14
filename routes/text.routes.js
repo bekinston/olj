@@ -62,7 +62,8 @@ router.get('/getevent1', async(req,res)=>{
     const type = "развлекательные"
 
     const event1 = await Event.find({type:type})
-    res.json(event1)
+
+    res.status(201).json(event1)
 
   } catch (e) {
 
@@ -75,7 +76,7 @@ router.get('/getevent2', async(req,res)=>{
     const type = "учебные"
 
     const event1 = await Event.find({type:type})
-    res.json(event1)
+    res.status(201).json(event1)
 
   } catch (e) {
 
@@ -88,7 +89,7 @@ router.get('/getsubject', async(req,res)=>{
     const state = "1"
 
     const subject = await Subject.find({state:state})
-    res.json(subject)
+    res.status(201).json(subject)
 
   } catch (e) {
 
@@ -101,7 +102,7 @@ router.get('/getsubject0', async(req,res)=>{
     const state = "0"
 
     const subject = await Subject.find({state:state})
-    res.json(subject)
+  res.status(201).json(subject)
 
   } catch (e) {
 

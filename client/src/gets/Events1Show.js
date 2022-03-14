@@ -1,28 +1,25 @@
 import React, {useCallback, useContext, useEffect, useState} from 'react'
 import {Events1List} from './Events1List'
 import axios from 'axios'
+import {useHttp} from '../hooks/http.hook'
 
 
 export const Events1Show = () => {
   const [event1, setEvent1] = useState([])
+  const {loading, request} = useHttp()
 
   const fetchEvent1 = useCallback(async () => {
-    try {
+  try {
+    const fetched = await request('/api/text/getevent1', 'GET', null, {
 
+    })
+    setEvent1(fetched)
+  } catch (e) {}
+}, [request])
 
-      const fetched = await axios.get("/api/text/getevent1")
-      .then((response) => {
-        setEvent1(response.data)
-      }, (error) => {
-        console.log(error)
-      })
-
-    } catch (e) {}
-  }, [])
-
-  useEffect(() => {
-    fetchEvent1()
-  }, [fetchEvent1])
+useEffect(() => {
+  fetchEvent1()
+}, [fetchEvent1])
 
 
   return (
